@@ -1,6 +1,7 @@
 # The classic company website
 
-## A website that that has a info and contact page.
+## A website that that has an info and contact page.
 
-Technologies used-
+Technologies used
+
 HTML, CSS, Javascript, node.je, ejs, mongoDB
