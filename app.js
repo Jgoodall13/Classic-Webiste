@@ -44,6 +44,6 @@ app.post('/form', function(req,res){
   })
 })
 
-app.listen(process.env.port || 8080, function(){
+app.listen(process.env.PORT || 8080, function(){
   console.log("Running on port 8080")
 })
