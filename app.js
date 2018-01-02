@@ -4,7 +4,8 @@ const express = require('express');
 const app = express();
 
 //app config
-mongoose.connect(process.env.port || "mongodb://localhost/form");
+const URI = 'mongodb://Jacob:X13Bilxzs@ds239047.mlab.com:39047/octagon'
+mongoose.connect(URI || "mongodb://localhost/form");
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
