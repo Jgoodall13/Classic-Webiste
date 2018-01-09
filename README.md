@@ -7,3 +7,14 @@ https://octagon-challenge.herokuapp.com/
 Technologies used
 
 HTML, CSS, Javascript, node.je, ejs, mongoDB
+
+
+## Desktop View
+
+![](public/images/shot1.png)
+
+![](public/images/shot2.png)
+
+## Mobile Friendly
+
+![](public/images/phone.jpg)
