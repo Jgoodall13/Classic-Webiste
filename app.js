@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 //app config
-const URI = 'mongodb://Jacob:X13Bilxzs@ds239047.mlab.com:39047/octagon'
+const URI = 'mongodb://Jacob:password@ds239047.mlab.com:39047/octagon'
 mongoose.connect(URI || "mongodb://localhost/form");
 app.set("view engine", "ejs");
 app.use(express.static("public"));
